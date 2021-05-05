@@ -1,0 +1,50 @@
+.dialog-pane{
+	-fx-border-color: #98ddca;
+	-fx-border-width: 2px;
+}
+.dialog-pane >.button-bar >.container{
+	-fx-background-color: #98ddca;
+}
+.dialog-pane > .content.label{
+	-fx-padding: 0.5em 0.5em 0.5em 0.5em;
+	-fx-background-color: #98ddca;
+	-fx-text-fill: rgb(0,0,0);
+	-fx-font-family: "B Titr";
+     -fx-text-alignment: center;
+	-fx-font-size:15 px;
+
+}
+.dialog-pane:header .header-panel .label{
+	-fx-background-color: #98ddca;
+	-fx-background-radius: 10px;
+	-fx-text-fill: rgb(0,0,0);
+	-fx-font-family: "B Titr";
+	 -fx-text-alignment: center ;
+
+	-fx-font-size: 15px;
+
+}
+.dialog-pane .button{
+	-fx-background-color: #2a3a4a;
+	-fx-text-fill: rgb(255,255,255);
+		-fx-font-family: "B Titr";
+	-fx-cursor: hand;
+}
+
+.jfx-list-cell:selected
+{
+   		-fx-background-color: #98ddca;
+}
+.jfx-list-view
+{
+	-fx-background-insets: 0px;
+	-fx-vgap: 10;
+}
+.jfx-list-cell
+{
+		-fx-background-color: rgb(62,62,62);
+		-fx-text-fill: rgb(255,255,255);
+		 	-fx-font-family: "B Titr";
+		 	-fx-border-color: #98ddca;
+
+}

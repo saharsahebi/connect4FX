@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="697.0" style="-fx-background-color: #2a3a4a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="connect4.app.HistoryController">
+    <children>
+        <Circle fill="#97dbc8" layoutX="56.0" layoutY="55.0" radius="100.0" stroke="#96d9c6" strokeType="INSIDE" />
+        <Circle fill="#96d9c6" layoutX="62.0" layoutY="450.0" radius="119.0" stroke="#96d9c6" strokeType="INSIDE" />
+        <Circle fill="#97dbc8" layoutX="659.0" layoutY="44.0" radius="144.0" stroke="#96d9c6" strokeType="INSIDE" />
+        <Circle fill="#96d9c6" layoutX="618.0" layoutY="428.0" radius="141.0" stroke="#96d9c6" strokeType="INSIDE" />
+        <Circle fill="#97dbc8" layoutX="234.0" layoutY="177.0" radius="100.0" stroke="#96d9c6" strokeType="INSIDE" />
+        <JFXListView fx:id="list" layoutX="180.0" layoutY="122.0" prefHeight="271.0" prefWidth="337.0" />
+    </children>
+</AnchorPane>

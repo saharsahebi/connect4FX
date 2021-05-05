@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<GridPane fx:id="rootGridPane" style="-fx-background-color: #D9F7F0;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="connect4.app.Controller">
+    <columnConstraints>
+        <ColumnConstraints  />
+        <ColumnConstraints maxWidth="336.0" minWidth="238.0" prefWidth="276.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane GridPane.columnSpan="2" />
+        <Pane fx:id="insertedDiscPane" prefHeight="400.0" prefWidth="200.0" GridPane.rowIndex="1" />
+        <VBox style="-fx-background-color: #2B3B4C;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <children>
+                <TextField fx:id="playerOneTextField" alignment="CENTER_RIGHT" layoutX="210.0" layoutY="86.0" prefHeight="29.0" prefWidth="158.0" promptText="نام بازیکن اول" style="-fx-background-color: #98ddca; -fx-background-radius: 12;" >
+                    <font>
+                        <Font name="B Titr Bold" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="35.0" />
+                    </VBox.margin>
+                </TextField>
+                <TextField fx:id="playerTwoTextField" alignment="CENTER_RIGHT" layoutX="210.0" layoutY="90.0" prefHeight="29.0" prefWidth="158.0" promptText="نام بازیکن دوم" style="-fx-background-color: #98ddca; -fx-background-radius: 12;" >
+                    <font>
+                        <Font name="B Titr Bold" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="15.0" />
+                    </VBox.margin>
+                </TextField>
+                <JFXButton fx:id="setNamesButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="311.0" text="ثبت اسامی  " textFill="WHITE" style=" -fx-background-radius: 12;">
+                    <font>
+                        <Font name="2  Titr Bold" size="22.0" />
+                    </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="15.0" right="15.0" top="15.0" />
+               </VBox.margin>
+            </JFXButton>
+                <Label fx:id="playerNameLabel" alignment="CENTER" prefHeight="43.0" prefWidth="340.0" text="بازیکن اول" textFill="#f8f7f7">
+                    <font>
+                        <Font name="2  Titr Bold" size="22.0" />
+                    </font>
+               <VBox.margin>
+                  <Insets top="70.0" />
+               </VBox.margin>
+                </Label>
+                <Label alignment="CENTER" prefHeight="38.0" prefWidth="341.0" text="شروع" textFill="WHITE">
+                    <font>
+                        <Font name="2  Titr Bold" size="22.0" />
+                    </font>
+                </Label>
+                <Region prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+            </children>
+        </VBox>
+    </children>
+</GridPane>
